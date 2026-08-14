@@ -5,6 +5,8 @@ Hands-on identity and access management case studies built in Microsoft Entra ID
 > **Current case study:** Microsoft Entra ID RBAC and delegated administration<br>
 > **Status:** Complete · Seven-part evidence set published
 
+> **Next lab:** [Microsoft Entra Conditional Access & MFA](02-conditional-access-mfa/README.md) · In progress
+
 ## Portfolio at a glance
 
 | Area | Demonstrated capability | Status |
@@ -46,6 +48,8 @@ flowchart LR
 enterprise-iam-homelab/
 ├── README.md
 ├── 01-entra-id-basics/
+│   └── README.md
+├── 02-conditional-access-mfa/
 │   └── README.md
 ├── docs/
 │   ├── evidence-guide.md
