@@ -5,6 +5,8 @@ Hands-on identity and access management case studies built in Microsoft Entra ID
 > **Current case study:** Microsoft Entra ID RBAC and delegated administration<br>
 > **Status:** Complete · Seven-part evidence set published
 
+> **Next lab:** [Microsoft Entra Conditional Access & MFA](02-conditional-access-mfa/README.md) · In progress
+
 ## Portfolio at a glance
 
 | Area | Demonstrated capability | Status |
@@ -47,6 +49,8 @@ enterprise-iam-homelab/
 ├── README.md
 ├── 01-entra-id-basics/
 │   └── README.md
+├── 02-conditional-access-mfa/
+│   └── README.md
 ├── docs/
 │   ├── evidence-guide.md
 │   └── interview-talking-points.md
@@ -71,8 +75,14 @@ See the [evidence capture guide](docs/evidence-guide.md) for the seven-artifact 
 
 ## Roadmap
 
-- Add MFA and Conditional Access validation.
-- Document joiner–mover–leaver lifecycle controls.
-- Add access reviews, privileged access workflows, automation, and identity-security investigations.
+| Lab | Focus | Status |
+|---|---|---|
+| [Lab 1](01-entra-id-basics/README.md) | Entra RBAC and delegated administration | Complete |
+| [Lab 2](02-conditional-access-mfa/README.md) | Conditional Access readiness and MFA | In progress |
+| [Lab 3](03-identity-lifecycle/README.md) | Joiner–mover–leaver lifecycle | Planned |
+| [Lab 4](04-access-reviews/README.md) | Access reviews and governance | Planned |
+| [Lab 5](05-privileged-identity-management/README.md) | Privileged Identity Management | Planned |
+| [Lab 6](06-iam-automation/README.md) | IAM automation with Microsoft Graph | Planned |
+| [Lab 7](07-identity-security-investigation/README.md) | Identity security investigation | Planned |
 
 > This repository uses fictional test identities in a lab tenant. It does not contain production credentials or production identity data.
